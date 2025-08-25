@@ -1,0 +1,36 @@
+@font-face {
+  font-family: vazirsans;
+  src: url(./assets/fonts/IRANSansX-Black.woff) format("woff");
+}
+
+@font-face {
+  font-family: vazirsans-light;
+  src: url(./assets/fonts/IRANSansX-Light.woff) format("woff");
+}
+
+.card {
+  font-family: vazirsans-light;
+  width: fit-content;
+  height: fit-content;
+}
+
+.div1 {
+  font-family: vazirsans;
+}
+
+.search-box {
+  border-radius: 30px;
+  border: 3px solid lightgrey;
+  width: fit-content;
+  background-color: darkorange;
+  padding: 10px;
+}
+.size-6 {
+  width: 30px;
+  height: 30px;
+}
+
+.content {
+  margin-top: 50px;
+  gap: 20px;
+}
